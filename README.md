@@ -1,0 +1,24 @@
+# Project
+
+
+- Add integration test that covers the full flow from request to response
+
+- Support loading config from multiple files with later overriding earlier
+
+- Clean up the formatting and run the linter on the changed files
+
+- Add a small delay between retries to avoid thundering herd
+
+- Simplify the config validation by using a declarative schema
+
+- Refactor the parser to use a proper state machine instead of regex
+
+- Adjust default timeout value to prevent premature connection drops
+
+- Clean up the TODO comments that were already addressed
+
+- Bump version to 1.2.0 and add changelog entry for the new features
+
+- Refactor error handling to use a custom exception hierarchy
+
+- Add a small delay between retries to avoid thundering herd

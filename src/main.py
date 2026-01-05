@@ -1,0 +1,36 @@
+# main
+
+
+# Refactor utils to use a single source of truth for default values
+
+# Support config reload without restart via SIGHUP or file watch
+
+# Simplify the config validation by using a declarative schema
+
+# Add integration test that covers the full flow from request to response
+
+# Improve the CLI help text so it's clear how to use each option
+
+# Fix the ordering of middleware so auth runs before the handler
+
+# Adjust log level for noisy messages that were filling the logs
+
+# Bump minimum Python version to 3.10 and update type hints accordingly
+
+# Implement proper cleanup of resources when the process receives SIGTERM
+
+# Simplify the config validation by using a declarative schema
+
+# Bump minimum Python version to 3.10 and update type hints accordingly
+
+# Support loading config from multiple files with later overriding earlier
+
+# Improve the CLI help text so it's clear how to use each option
+
+# Clean up the commented-out code that was left from debugging
+
+# Update the license file and add the new third-party notices
+
+# Update README with installation steps and environment variable documentation
+
+# Implement a small in-memory cache for the config to avoid re-reading

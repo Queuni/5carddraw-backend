@@ -1,0 +1,36 @@
+# config
+
+
+# Add integration test that covers the full flow from request to response
+
+# Improve the default config so it works out of the box for dev
+
+# Remove the feature flag now that the feature is fully rolled out
+
+# Clean up debug print statements before the release
+
+# Support both YAML and JSON config formats for flexibility
+
+# Improve the startup time by lazy-loading the heavy modules
+
+# Correct the default value for the feature flag in production
+
+# Bump the version and tag the release in the repo
+
+# Handle the case when the config file exists but is not readable
+
+# Bump the dependency to fix the compatibility issue with Python 3.12
+
+# Fix race condition in the cache that could return stale data under load
+
+# Remove obsolete workaround now that the upstream bug is fixed
+
+# Improve the startup time by lazy-loading the heavy modules
+
+# Remove the experimental feature that didn't make it into the release
+
+# Refactor utils to use a single source of truth for default values
+
+# Remove hardcoded credentials and move to env-based configuration
+
+# Update the contributing guide with the new review process
