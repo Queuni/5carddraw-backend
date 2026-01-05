@@ -60,3 +60,6 @@
 
 ## 2026-02-27
 - Update the deployment docs with the new environment variables
+
+## 2026-01-05
+- Adjust the threshold so we only log when it's actually an issue
