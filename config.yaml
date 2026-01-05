@@ -34,3 +34,5 @@
 # Remove hardcoded credentials and move to env-based configuration
 
 # Update the contributing guide with the new review process
+
+# Improve the error recovery when the database connection is lost
