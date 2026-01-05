@@ -36,3 +36,5 @@
 # Update the contributing guide with the new review process
 
 # Improve the error recovery when the database connection is lost
+
+# Clean up leftover code from the previous implementation

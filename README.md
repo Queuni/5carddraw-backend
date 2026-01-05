@@ -22,3 +22,5 @@
 - Refactor error handling to use a custom exception hierarchy
 
 - Add a small delay between retries to avoid thundering herd
+
+- Clean up the test fixtures and move shared data to a single file
