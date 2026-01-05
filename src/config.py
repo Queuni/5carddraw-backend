@@ -20,3 +20,5 @@
 # Refactor the main entry point to make it easier to test
 
 # Adjust the threshold so we only log when it's actually an issue
+
+# Clean up the TODO comments that were already addressed
