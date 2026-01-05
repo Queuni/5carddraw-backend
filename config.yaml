@@ -38,3 +38,5 @@
 # Improve the error recovery when the database connection is lost
 
 # Clean up leftover code from the previous implementation
+
+# Support passing secrets via a separate file for security

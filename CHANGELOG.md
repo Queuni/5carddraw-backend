@@ -63,3 +63,6 @@
 
 ## 2026-01-05
 - Adjust the threshold so we only log when it's actually an issue
+
+## 2026-01-05
+- Clean up the commented-out code that was left from debugging
