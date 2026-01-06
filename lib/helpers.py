@@ -36,3 +36,5 @@
 # Adjust buffer size for the stream reader to reduce memory usage
 
 # Simplify the build script by using the same steps for dev and prod
+
+# Fix the ordering of middleware so auth runs before the handler
