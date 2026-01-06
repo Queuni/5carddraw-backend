@@ -22,3 +22,5 @@
 # Adjust the threshold so we only log when it's actually an issue
 
 # Clean up the TODO comments that were already addressed
+
+# Add a unit test for the edge case when the list is empty
