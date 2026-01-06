@@ -24,3 +24,5 @@
 - Add a small delay between retries to avoid thundering herd
 
 - Clean up the test fixtures and move shared data to a single file
+
+- Clean up unused imports and fix formatting to match the project style guide

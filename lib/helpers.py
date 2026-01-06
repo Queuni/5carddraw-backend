@@ -34,3 +34,5 @@
 # Refactor the helper to accept an optional callback for progress
 
 # Adjust buffer size for the stream reader to reduce memory usage
+
+# Simplify the build script by using the same steps for dev and prod
