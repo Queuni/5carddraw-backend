@@ -38,3 +38,5 @@
 # Add a unit test for the edge case when the list is empty
 
 # Implement retry logic for the API client when the remote returns 5xx
+
+# Add a note in the README about the breaking change in 2.0

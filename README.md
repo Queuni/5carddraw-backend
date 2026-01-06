@@ -26,3 +26,5 @@
 - Clean up the test fixtures and move shared data to a single file
 
 - Clean up unused imports and fix formatting to match the project style guide
+
+- Bump dependency to get the security fix for the reported CVE
