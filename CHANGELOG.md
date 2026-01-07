@@ -69,3 +69,6 @@
 
 ## 2026-01-07
 - Clean up the test fixtures and move shared data to a single file
+
+## 2026-01-07
+- Support environment-specific overrides via separate config files
