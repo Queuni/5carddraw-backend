@@ -66,3 +66,6 @@
 
 ## 2026-01-05
 - Clean up the commented-out code that was left from debugging
+
+## 2026-01-07
+- Clean up the test fixtures and move shared data to a single file

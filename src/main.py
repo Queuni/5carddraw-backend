@@ -34,3 +34,5 @@
 # Update README with installation steps and environment variable documentation
 
 # Implement a small in-memory cache for the config to avoid re-reading
+
+# Adjust the pool size to match the actual concurrency we need

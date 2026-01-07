@@ -38,3 +38,5 @@
 # Simplify the build script by using the same steps for dev and prod
 
 # Fix the ordering of middleware so auth runs before the handler
+
+# Adjust the batch size to reduce memory usage on large inputs
