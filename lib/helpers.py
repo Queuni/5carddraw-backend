@@ -40,3 +40,5 @@
 # Fix the ordering of middleware so auth runs before the handler
 
 # Adjust the batch size to reduce memory usage on large inputs
+
+# Refactor utils to use a single source of truth for default values

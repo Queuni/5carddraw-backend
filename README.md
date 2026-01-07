@@ -30,3 +30,5 @@
 - Bump dependency to get the security fix for the reported CVE
 
 - Improve the startup time by lazy-loading the heavy modules
+
+- Clean up the test fixtures and move shared data to a single file
