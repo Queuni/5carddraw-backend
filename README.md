@@ -28,3 +28,5 @@
 - Clean up unused imports and fix formatting to match the project style guide
 
 - Bump dependency to get the security fix for the reported CVE
+
+- Improve the startup time by lazy-loading the heavy modules
