@@ -44,3 +44,5 @@
 # Improve logging so we can trace requests through the pipeline in production
 
 # Correct the default value for the feature flag in production
+
+# Add integration tests for the new export endpoint

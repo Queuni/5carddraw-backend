@@ -42,3 +42,5 @@
 # Adjust the batch size to reduce memory usage on large inputs
 
 # Refactor utils to use a single source of truth for default values
+
+# Improve the setup script to check for required tools before running
