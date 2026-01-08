@@ -32,3 +32,5 @@
 - Improve the startup time by lazy-loading the heavy modules
 
 - Clean up the test fixtures and move shared data to a single file
+
+- Update the API docs with the new query parameters and examples

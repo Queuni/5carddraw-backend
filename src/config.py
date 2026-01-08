@@ -24,3 +24,5 @@
 # Clean up the TODO comments that were already addressed
 
 # Add a unit test for the edge case when the list is empty
+
+# Clean up duplicate logic between the sync and async code paths
