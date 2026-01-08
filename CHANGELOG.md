@@ -75,3 +75,6 @@
 
 ## 2026-01-08
 - Clean up debug print statements before the release
+
+## 2026-01-08
+- Handle the case when the external service returns an empty list
