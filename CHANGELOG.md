@@ -72,3 +72,6 @@
 
 ## 2026-01-07
 - Support environment-specific overrides via separate config files
+
+## 2026-01-08
+- Clean up debug print statements before the release

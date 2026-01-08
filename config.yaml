@@ -48,3 +48,5 @@
 # Add integration tests for the new export endpoint
 
 # Add a small delay between retries to avoid thundering herd
+
+# Add a smoke test that runs in CI to catch obvious regressions

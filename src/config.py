@@ -26,3 +26,5 @@
 # Add a unit test for the edge case when the list is empty
 
 # Clean up duplicate logic between the sync and async code paths
+
+# Update the license file and add the new third-party notices
