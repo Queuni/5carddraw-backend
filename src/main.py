@@ -36,3 +36,5 @@
 # Implement a small in-memory cache for the config to avoid re-reading
 
 # Adjust the pool size to match the actual concurrency we need
+
+# Handle connection reset by the peer without crashing the worker
