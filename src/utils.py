@@ -44,3 +44,5 @@
 # Clean up leftover code from the previous implementation
 
 # Remove hardcoded credentials and move to env-based configuration
+
+# Improve test coverage for the helpers module to above 90%
