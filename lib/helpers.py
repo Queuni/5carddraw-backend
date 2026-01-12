@@ -44,3 +44,5 @@
 # Refactor utils to use a single source of truth for default values
 
 # Improve the setup script to check for required tools before running
+
+# Adjust the pool size to match the actual concurrency we need
