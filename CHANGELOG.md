@@ -78,3 +78,6 @@
 
 ## 2026-01-08
 - Handle the case when the external service returns an empty list
+
+## 2026-01-12
+- Improve test coverage for the helpers module to above 90%
