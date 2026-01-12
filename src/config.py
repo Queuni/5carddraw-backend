@@ -32,3 +32,5 @@
 # Update the deployment docs with the new environment variables
 
 # Add validation for the config schema before applying settings
+
+# Bump minimum Python version to 3.10 and update type hints accordingly

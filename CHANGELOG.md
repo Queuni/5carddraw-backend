@@ -84,3 +84,6 @@
 
 ## 2026-01-12
 - Update documentation to reflect the new API and usage examples
+
+## 2026-01-12
+- Clean up duplicate logic between the sync and async code paths

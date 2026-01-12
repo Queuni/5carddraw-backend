@@ -38,3 +38,5 @@
 # Adjust the pool size to match the actual concurrency we need
 
 # Handle connection reset by the peer without crashing the worker
+
+# Adjust timeout and retry settings based on production observations
