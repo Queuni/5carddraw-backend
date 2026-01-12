@@ -30,3 +30,5 @@
 # Update the license file and add the new third-party notices
 
 # Update the deployment docs with the new environment variables
+
+# Add validation for the config schema before applying settings

@@ -50,3 +50,5 @@
 # Add a small delay between retries to avoid thundering herd
 
 # Add a smoke test that runs in CI to catch obvious regressions
+
+# Support both YAML and JSON config formats for flexibility
