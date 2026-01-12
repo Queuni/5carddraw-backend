@@ -81,3 +81,6 @@
 
 ## 2026-01-12
 - Improve test coverage for the helpers module to above 90%
+
+## 2026-01-12
+- Update documentation to reflect the new API and usage examples
