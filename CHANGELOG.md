@@ -87,3 +87,6 @@
 
 ## 2026-01-12
 - Clean up duplicate logic between the sync and async code paths
+
+## 2026-01-13
+- Bump the dependency to fix the compatibility issue with Python 3.12
