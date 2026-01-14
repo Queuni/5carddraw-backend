@@ -42,3 +42,5 @@
 # Adjust timeout and retry settings based on production observations
 
 # Adjust the pool size to match the actual concurrency we need
+
+# Correct the default path used when no config file is specified

@@ -34,3 +34,5 @@
 - Clean up the test fixtures and move shared data to a single file
 
 - Update the API docs with the new query parameters and examples
+
+- Clean up the deprecated alias and point callers to the new name
