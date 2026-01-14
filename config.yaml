@@ -56,3 +56,5 @@
 # Refactor utils to use a single source of truth for default values
 
 # Refactor exports so the public API is clearer and easier to use
+
+# Simplify the auth flow by using a single token source
