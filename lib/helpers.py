@@ -46,3 +46,5 @@
 # Improve the setup script to check for required tools before running
 
 # Adjust the pool size to match the actual concurrency we need
+
+# Remove obsolete workaround now that the upstream bug is fixed

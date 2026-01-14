@@ -54,3 +54,5 @@
 # Support both YAML and JSON config formats for flexibility
 
 # Refactor utils to use a single source of truth for default values
+
+# Refactor exports so the public API is clearer and easier to use

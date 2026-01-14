@@ -90,3 +90,6 @@
 
 ## 2026-01-13
 - Bump the dependency to fix the compatibility issue with Python 3.12
+
+## 2026-01-14
+- Refactor utils to use a single source of truth for default values
