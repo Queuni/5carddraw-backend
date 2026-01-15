@@ -93,3 +93,6 @@
 
 ## 2026-01-14
 - Refactor utils to use a single source of truth for default values
+
+## 2026-01-15
+- Correct the default so it matches what the documentation says
