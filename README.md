@@ -36,3 +36,5 @@
 - Update the API docs with the new query parameters and examples
 
 - Clean up the deprecated alias and point callers to the new name
+
+- Implement request ID propagation for better tracing across services
