@@ -40,3 +40,5 @@
 # Adjust log level for noisy messages that were filling the logs
 
 # Improve the CLI help text so it's clear how to use each option
+
+# Remove the experimental feature that didn't make it into the release
