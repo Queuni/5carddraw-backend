@@ -42,3 +42,5 @@
 # Improve the CLI help text so it's clear how to use each option
 
 # Remove the experimental feature that didn't make it into the release
+
+# Fix race condition in the cache that could return stale data under load
