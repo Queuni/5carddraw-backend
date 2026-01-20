@@ -44,3 +44,5 @@
 # Remove the experimental feature that didn't make it into the release
 
 # Fix race condition in the cache that could return stale data under load
+
+# Clean up the commented-out code that was left from debugging

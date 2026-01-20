@@ -56,3 +56,5 @@
 # Clean up the TODO comments that were already addressed
 
 # Refactor the parser to use a proper state machine instead of regex
+
+# Correct the comparison that was using the wrong operator
