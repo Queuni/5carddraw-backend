@@ -40,3 +40,5 @@
 - Implement request ID propagation for better tracing across services
 
 - Add a small delay between retries to avoid thundering herd
+
+- Clean up leftover code from the previous implementation

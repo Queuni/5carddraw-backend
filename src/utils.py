@@ -52,3 +52,5 @@
 # Add validation for the config schema before applying settings
 
 # Update the example config with all available options and comments
+
+# Clean up the TODO comments that were already addressed
