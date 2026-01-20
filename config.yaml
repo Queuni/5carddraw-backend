@@ -62,3 +62,5 @@
 # Bump dependency to get the security fix for the reported CVE
 
 # Simplify the auth flow by using a single token source
+
+# Handle missing optional field in the response without raising

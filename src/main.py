@@ -48,3 +48,5 @@
 # Clean up the test fixtures and move shared data to a single file
 
 # Update documentation to reflect the new API and usage examples
+
+# Correct the comparison that was using the wrong operator
