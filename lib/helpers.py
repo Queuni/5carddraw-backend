@@ -48,3 +48,5 @@
 # Adjust the pool size to match the actual concurrency we need
 
 # Remove obsolete workaround now that the upstream bug is fixed
+
+# Refactor the main entry point to make it easier to test

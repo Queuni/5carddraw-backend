@@ -42,3 +42,5 @@
 - Add a small delay between retries to avoid thundering herd
 
 - Clean up leftover code from the previous implementation
+
+- Adjust the queue size to prevent drops under burst traffic
