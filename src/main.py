@@ -46,3 +46,5 @@
 # Correct the default path used when no config file is specified
 
 # Clean up the test fixtures and move shared data to a single file
+
+# Update documentation to reflect the new API and usage examples

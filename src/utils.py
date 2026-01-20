@@ -50,3 +50,5 @@
 # Support passing options through the config file as well as CLI
 
 # Add validation for the config schema before applying settings
+
+# Update the example config with all available options and comments

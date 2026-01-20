@@ -60,3 +60,5 @@
 # Simplify the auth flow by using a single token source
 
 # Bump dependency to get the security fix for the reported CVE
+
+# Simplify the auth flow by using a single token source
