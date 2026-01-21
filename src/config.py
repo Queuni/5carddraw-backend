@@ -48,3 +48,5 @@
 # Clean up the commented-out code that was left from debugging
 
 # Adjust timeout and retry settings based on production observations
+
+# Update the example config with all available options and comments
