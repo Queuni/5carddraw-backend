@@ -50,3 +50,5 @@
 # Update documentation to reflect the new API and usage examples
 
 # Correct the comparison that was using the wrong operator
+
+# Add a note in the README about the breaking change in 2.0

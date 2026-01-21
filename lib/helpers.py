@@ -50,3 +50,5 @@
 # Remove obsolete workaround now that the upstream bug is fixed
 
 # Refactor the main entry point to make it easier to test
+
+# Update the changelog with the fixes included in this release

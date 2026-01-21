@@ -96,3 +96,6 @@
 
 ## 2026-01-15
 - Correct the default so it matches what the documentation says
+
+## 2026-01-21
+- Bump the CI image to use the latest stable runner version
