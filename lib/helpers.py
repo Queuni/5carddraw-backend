@@ -56,3 +56,5 @@
 # Remove the deprecated wrapper and use the library API directly
 
 # Bump the tool version and update the pre-commit hook config
+
+# Fix incorrect type hint that was causing mypy to fail in CI

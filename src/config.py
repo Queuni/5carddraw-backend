@@ -50,3 +50,5 @@
 # Adjust timeout and retry settings based on production observations
 
 # Update the example config with all available options and comments
+
+# Improve performance by caching the result of the expensive lookup

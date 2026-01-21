@@ -64,3 +64,5 @@
 # Simplify the auth flow by using a single token source
 
 # Handle missing optional field in the response without raising
+
+# Correct the docstring to match the actual behavior of the function
