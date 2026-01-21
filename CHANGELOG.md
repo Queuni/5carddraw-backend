@@ -99,3 +99,6 @@
 
 ## 2026-01-21
 - Bump the CI image to use the latest stable runner version
+
+## 2026-01-21
+- Implement retry logic for the API client when the remote returns 5xx

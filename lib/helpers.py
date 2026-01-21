@@ -52,3 +52,5 @@
 # Refactor the main entry point to make it easier to test
 
 # Update the changelog with the fixes included in this release
+
+# Remove the deprecated wrapper and use the library API directly
