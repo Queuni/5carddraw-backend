@@ -52,3 +52,5 @@
 # Update the example config with all available options and comments
 
 # Improve performance by caching the result of the expensive lookup
+
+# Improve the startup time by lazy-loading the heavy modules
