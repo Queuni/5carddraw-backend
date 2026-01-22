@@ -68,3 +68,5 @@
 # Correct the docstring to match the actual behavior of the function
 
 # Fix race condition in the cache that could return stale data under load
+
+# Correct the default path used when no config file is specified

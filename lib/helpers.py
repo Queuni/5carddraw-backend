@@ -60,3 +60,5 @@
 # Fix incorrect type hint that was causing mypy to fail in CI
 
 # Refactor the helper to accept an optional callback for progress
+
+# Implement a small in-memory cache for the config to avoid re-reading
