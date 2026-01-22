@@ -102,3 +102,6 @@
 
 ## 2026-01-21
 - Implement retry logic for the API client when the remote returns 5xx
+
+## 2026-01-22
+- Fix the off-by-one error in the date range iterator
