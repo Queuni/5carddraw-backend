@@ -105,3 +105,6 @@
 
 ## 2026-01-22
 - Fix the off-by-one error in the date range iterator
+
+## 2026-01-22
+- Update the example config with all available options and comments

@@ -48,3 +48,5 @@
 - Simplify the build script by using the same steps for dev and prod
 
 - Remove deprecated CLI flag and update docs to use the new option
+
+- Refactor the main entry point to make it easier to test
