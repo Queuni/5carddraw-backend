@@ -46,3 +46,5 @@
 - Adjust the queue size to prevent drops under burst traffic
 
 - Simplify the build script by using the same steps for dev and prod
+
+- Remove deprecated CLI flag and update docs to use the new option

@@ -54,3 +54,5 @@
 # Improve performance by caching the result of the expensive lookup
 
 # Improve the startup time by lazy-loading the heavy modules
+
+# Correct the logic that determined whether to use cache or not

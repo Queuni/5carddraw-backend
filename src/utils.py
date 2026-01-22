@@ -58,3 +58,5 @@
 # Refactor the parser to use a proper state machine instead of regex
 
 # Correct the comparison that was using the wrong operator
+
+# Implement a simple metrics endpoint for Prometheus scraping
