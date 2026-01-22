@@ -58,3 +58,5 @@
 # Bump the tool version and update the pre-commit hook config
 
 # Fix incorrect type hint that was causing mypy to fail in CI
+
+# Refactor the helper to accept an optional callback for progress
