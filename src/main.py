@@ -52,3 +52,5 @@
 # Correct the comparison that was using the wrong operator
 
 # Add a note in the README about the breaking change in 2.0
+
+# Fix bug where the parser would hang on malformed input

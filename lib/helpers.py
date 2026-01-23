@@ -62,3 +62,5 @@
 # Refactor the helper to accept an optional callback for progress
 
 # Implement a small in-memory cache for the config to avoid re-reading
+
+# Support loading config from multiple files with later overriding earlier
