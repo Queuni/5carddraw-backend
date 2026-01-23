@@ -60,3 +60,5 @@
 # Correct the comparison that was using the wrong operator
 
 # Implement a simple metrics endpoint for Prometheus scraping
+
+# Correct the formula used for calculating the backoff delay

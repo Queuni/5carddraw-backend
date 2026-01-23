@@ -54,3 +54,5 @@
 # Add a note in the README about the breaking change in 2.0
 
 # Fix bug where the parser would hang on malformed input
+
+# Correct the default so it matches what the documentation says
