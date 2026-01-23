@@ -50,3 +50,5 @@
 - Remove deprecated CLI flag and update docs to use the new option
 
 - Refactor the main entry point to make it easier to test
+
+- Handle the case when the external service returns an empty list

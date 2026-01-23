@@ -108,3 +108,6 @@
 
 ## 2026-01-22
 - Update the example config with all available options and comments
+
+## 2026-01-23
+- Bump version to 1.2.0 and add changelog entry for the new features
