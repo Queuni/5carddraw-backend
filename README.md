@@ -52,3 +52,5 @@
 - Refactor the main entry point to make it easier to test
 
 - Handle the case when the external service returns an empty list
+
+- Implement fallback to default value when config key is missing

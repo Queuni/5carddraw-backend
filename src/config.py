@@ -60,3 +60,5 @@
 # Correct the default value for the feature flag in production
 
 # Adjust default timeout value to prevent premature connection drops
+
+# Update README with installation steps and environment variable documentation
