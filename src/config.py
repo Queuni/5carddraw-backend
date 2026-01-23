@@ -58,3 +58,5 @@
 # Correct the logic that determined whether to use cache or not
 
 # Correct the default value for the feature flag in production
+
+# Adjust default timeout value to prevent premature connection drops
