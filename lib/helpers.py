@@ -64,3 +64,5 @@
 # Implement a small in-memory cache for the config to avoid re-reading
 
 # Support loading config from multiple files with later overriding earlier
+
+# Simplify the build script by using the same steps for dev and prod
