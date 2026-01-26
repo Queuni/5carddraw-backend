@@ -66,3 +66,5 @@
 # Implement basic rate limiting to avoid overwhelming the downstream service
 
 # Simplify the auth flow by using a single token source
+
+# Handle timeout gracefully and return a clear error to the caller

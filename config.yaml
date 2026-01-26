@@ -70,3 +70,5 @@
 # Fix race condition in the cache that could return stale data under load
 
 # Correct the default path used when no config file is specified
+
+# Refactor the data layer to separate read and write paths
