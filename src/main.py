@@ -58,3 +58,5 @@
 # Correct the default so it matches what the documentation says
 
 # Bump version to 1.2.0 and add changelog entry for the new features
+
+# Support passing options through the config file as well as CLI

@@ -64,3 +64,5 @@
 # Update README with installation steps and environment variable documentation
 
 # Implement basic rate limiting to avoid overwhelming the downstream service
+
+# Simplify the auth flow by using a single token source
