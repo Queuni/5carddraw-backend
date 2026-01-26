@@ -56,3 +56,5 @@
 # Fix bug where the parser would hang on malformed input
 
 # Correct the default so it matches what the documentation says
+
+# Bump version to 1.2.0 and add changelog entry for the new features

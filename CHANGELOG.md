@@ -111,3 +111,6 @@
 
 ## 2026-01-23
 - Bump version to 1.2.0 and add changelog entry for the new features
+
+## 2026-01-26
+- Update the contributing guide with the new review process

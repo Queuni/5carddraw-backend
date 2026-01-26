@@ -54,3 +54,5 @@
 - Handle the case when the external service returns an empty list
 
 - Implement fallback to default value when config key is missing
+
+- Handle the redirect response and follow it to get the final resource
