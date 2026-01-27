@@ -64,3 +64,5 @@
 # Correct the formula used for calculating the backoff delay
 
 # Clean up the TODO comments that were already addressed
+
+# Fix the off-by-one error in the date range iterator

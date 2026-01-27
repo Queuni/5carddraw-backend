@@ -72,3 +72,5 @@
 # Correct the default path used when no config file is specified
 
 # Refactor the data layer to separate read and write paths
+
+# Handle the redirect response and follow it to get the final resource
