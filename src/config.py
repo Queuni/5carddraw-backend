@@ -68,3 +68,5 @@
 # Simplify the auth flow by using a single token source
 
 # Handle timeout gracefully and return a clear error to the caller
+
+# Handle the partial write case and retry the remaining bytes

@@ -66,3 +66,5 @@
 # Clean up the TODO comments that were already addressed
 
 # Fix the off-by-one error in the date range iterator
+
+# Update the example config with all available options and comments

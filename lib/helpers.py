@@ -68,3 +68,5 @@
 # Simplify the build script by using the same steps for dev and prod
 
 # Fix bug where the parser would hang on malformed input
+
+# Handle timeout gracefully and return a clear error to the caller
