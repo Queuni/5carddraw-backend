@@ -62,3 +62,5 @@
 # Implement a simple metrics endpoint for Prometheus scraping
 
 # Correct the formula used for calculating the backoff delay
+
+# Clean up the TODO comments that were already addressed

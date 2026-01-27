@@ -66,3 +66,5 @@
 # Support loading config from multiple files with later overriding earlier
 
 # Simplify the build script by using the same steps for dev and prod
+
+# Fix bug where the parser would hang on malformed input
