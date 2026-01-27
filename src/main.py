@@ -60,3 +60,5 @@
 # Bump version to 1.2.0 and add changelog entry for the new features
 
 # Support passing options through the config file as well as CLI
+
+# Add proper error handling for invalid config so the app doesn't crash on startup
