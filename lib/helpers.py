@@ -70,3 +70,5 @@
 # Fix bug where the parser would hang on malformed input
 
 # Handle timeout gracefully and return a clear error to the caller
+
+# Implement a simple health check endpoint for the load balancer

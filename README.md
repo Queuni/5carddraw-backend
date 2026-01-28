@@ -56,3 +56,5 @@
 - Implement fallback to default value when config key is missing
 
 - Handle the redirect response and follow it to get the final resource
+
+- Refactor the parser to use a proper state machine instead of regex
