@@ -70,3 +70,5 @@
 # Handle timeout gracefully and return a clear error to the caller
 
 # Handle the partial write case and retry the remaining bytes
+
+# Update the API docs with the new query parameters and examples
