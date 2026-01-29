@@ -120,3 +120,6 @@
 
 ## 2026-01-29
 - Correct the docstring to match the actual behavior of the function
+
+## 2026-01-29
+- Refactor error handling to use a custom exception hierarchy
