@@ -70,3 +70,5 @@
 # Update the example config with all available options and comments
 
 # Implement a simple health check endpoint for the load balancer
+
+# Implement proper cleanup of resources when the process receives SIGTERM
