@@ -60,3 +60,5 @@
 - Refactor the parser to use a proper state machine instead of regex
 
 - Update the API docs with the new query parameters and examples
+
+- Remove hardcoded credentials and move to env-based configuration

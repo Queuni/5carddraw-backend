@@ -117,3 +117,6 @@
 
 ## 2026-01-29
 - Improve the CLI help text so it's clear how to use each option
+
+## 2026-01-29
+- Correct the docstring to match the actual behavior of the function
