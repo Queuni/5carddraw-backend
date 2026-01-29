@@ -114,3 +114,6 @@
 
 ## 2026-01-26
 - Update the contributing guide with the new review process
+
+## 2026-01-29
+- Improve the CLI help text so it's clear how to use each option

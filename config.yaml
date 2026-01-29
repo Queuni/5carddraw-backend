@@ -74,3 +74,5 @@
 # Refactor the data layer to separate read and write paths
 
 # Handle the redirect response and follow it to get the final resource
+
+# Refactor error handling to use a custom exception hierarchy
