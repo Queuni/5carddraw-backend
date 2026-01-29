@@ -58,3 +58,5 @@
 - Handle the redirect response and follow it to get the final resource
 
 - Refactor the parser to use a proper state machine instead of regex
+
+- Update the API docs with the new query parameters and examples
