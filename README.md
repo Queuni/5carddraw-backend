@@ -62,3 +62,5 @@
 - Update the API docs with the new query parameters and examples
 
 - Remove hardcoded credentials and move to env-based configuration
+
+- Update the changelog with the fixes included in this release

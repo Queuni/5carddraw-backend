@@ -62,3 +62,5 @@
 # Support passing options through the config file as well as CLI
 
 # Add proper error handling for invalid config so the app doesn't crash on startup
+
+# Implement fallback to default value when config key is missing
