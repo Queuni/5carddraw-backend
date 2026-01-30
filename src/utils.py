@@ -74,3 +74,5 @@
 # Implement proper cleanup of resources when the process receives SIGTERM
 
 # Implement retry logic for the API client when the remote returns 5xx
+
+# Clean up the test fixtures and move shared data to a single file
