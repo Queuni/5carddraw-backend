@@ -64,3 +64,5 @@
 # Add proper error handling for invalid config so the app doesn't crash on startup
 
 # Implement fallback to default value when config key is missing
+
+# Simplify the auth flow by using a single token source
