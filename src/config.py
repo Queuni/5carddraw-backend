@@ -72,3 +72,5 @@
 # Handle the partial write case and retry the remaining bytes
 
 # Update the API docs with the new query parameters and examples
+
+# Improve test coverage for the helpers module to above 90%

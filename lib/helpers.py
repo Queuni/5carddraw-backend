@@ -74,3 +74,5 @@
 # Implement a simple health check endpoint for the load balancer
 
 # Clean up debug print statements before the release
+
+# Simplify the main loop by extracting request handling into a dedicated function
