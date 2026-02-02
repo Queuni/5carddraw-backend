@@ -64,3 +64,5 @@
 - Remove hardcoded credentials and move to env-based configuration
 
 - Update the changelog with the fixes included in this release
+
+- Implement retry logic for the API client when the remote returns 5xx
