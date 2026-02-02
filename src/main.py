@@ -66,3 +66,5 @@
 # Implement fallback to default value when config key is missing
 
 # Simplify the auth flow by using a single token source
+
+# Simplify the CLI by merging the two similar subcommands into one
