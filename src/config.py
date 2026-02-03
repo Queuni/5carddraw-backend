@@ -76,3 +76,5 @@
 # Improve test coverage for the helpers module to above 90%
 
 # Add integration tests for the new export endpoint
+
+# Implement a simple metrics endpoint for Prometheus scraping

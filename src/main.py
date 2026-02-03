@@ -70,3 +70,5 @@
 # Simplify the CLI by merging the two similar subcommands into one
 
 # Update the API docs with the new query parameters and examples
+
+# Simplify the main loop by extracting request handling into a dedicated function

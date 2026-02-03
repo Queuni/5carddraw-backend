@@ -78,3 +78,5 @@
 # Refactor error handling to use a custom exception hierarchy
 
 # Refactor the parser to use a proper state machine instead of regex
+
+# Implement a small in-memory cache for the config to avoid re-reading
