@@ -68,3 +68,5 @@
 # Simplify the auth flow by using a single token source
 
 # Simplify the CLI by merging the two similar subcommands into one
+
+# Update the API docs with the new query parameters and examples
