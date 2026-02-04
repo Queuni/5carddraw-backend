@@ -82,3 +82,5 @@
 # Handle the case when the external service returns an empty list
 
 # Add integration tests for the new export endpoint
+
+# Correct the docstring to match the actual behavior of the function

@@ -80,3 +80,5 @@
 # Refactor the parser to use a proper state machine instead of regex
 
 # Implement a small in-memory cache for the config to avoid re-reading
+
+# Improve error message when the required env var is not set
