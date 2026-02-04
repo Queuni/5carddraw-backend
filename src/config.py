@@ -78,3 +78,5 @@
 # Add integration tests for the new export endpoint
 
 # Implement a simple metrics endpoint for Prometheus scraping
+
+# Add a unit test for the edge case when the list is empty
