@@ -76,3 +76,5 @@
 # Clean up debug print statements before the release
 
 # Simplify the main loop by extracting request handling into a dedicated function
+
+# Remove the deprecated wrapper and use the library API directly

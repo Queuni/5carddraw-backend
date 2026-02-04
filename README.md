@@ -68,3 +68,5 @@
 - Implement retry logic for the API client when the remote returns 5xx
 
 - Remove obsolete workaround now that the upstream bug is fixed
+
+- Update dependencies and resolve compatibility warning from pytest

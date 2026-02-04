@@ -123,3 +123,6 @@
 
 ## 2026-01-29
 - Refactor error handling to use a custom exception hierarchy
+
+## 2026-02-04
+- Add a small delay between retries to avoid thundering herd
