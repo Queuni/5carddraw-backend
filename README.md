@@ -72,3 +72,5 @@
 - Update dependencies and resolve compatibility warning from pytest
 
 - Support config reload without restart via SIGHUP or file watch
+
+- Support loading config from multiple files with later overriding earlier

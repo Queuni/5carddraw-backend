@@ -129,3 +129,6 @@
 
 ## 2026-02-05
 - Adjust timeout and retry settings based on production observations
+
+## 2026-02-05
+- Handle the case when the external service returns an empty list
