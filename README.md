@@ -70,3 +70,5 @@
 - Remove obsolete workaround now that the upstream bug is fixed
 
 - Update dependencies and resolve compatibility warning from pytest
+
+- Support config reload without restart via SIGHUP or file watch

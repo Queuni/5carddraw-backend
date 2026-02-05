@@ -72,3 +72,5 @@
 # Update the API docs with the new query parameters and examples
 
 # Simplify the main loop by extracting request handling into a dedicated function
+
+# Update the deployment docs with the new environment variables

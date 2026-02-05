@@ -126,3 +126,6 @@
 
 ## 2026-02-04
 - Add a small delay between retries to avoid thundering herd
+
+## 2026-02-05
+- Adjust timeout and retry settings based on production observations
