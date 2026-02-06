@@ -80,3 +80,5 @@
 # Implement a simple metrics endpoint for Prometheus scraping
 
 # Add a unit test for the edge case when the list is empty
+
+# Improve the setup script to check for required tools before running
