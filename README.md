@@ -74,3 +74,5 @@
 - Support config reload without restart via SIGHUP or file watch
 
 - Support loading config from multiple files with later overriding earlier
+
+- Handle the case when the external service returns an empty list

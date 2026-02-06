@@ -84,3 +84,5 @@
 # Improve the setup script to check for required tools before running
 
 # Adjust the threshold so we only log when it's actually an issue
+
+# Fix incorrect type hint that was causing mypy to fail in CI
