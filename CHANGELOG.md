@@ -132,3 +132,6 @@
 
 ## 2026-02-05
 - Handle the case when the external service returns an empty list
+
+## 2026-02-06
+- Simplify the auth flow by using a single token source

@@ -82,3 +82,5 @@
 # Add a unit test for the edge case when the list is empty
 
 # Improve the setup script to check for required tools before running
+
+# Adjust the threshold so we only log when it's actually an issue
