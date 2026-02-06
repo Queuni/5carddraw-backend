@@ -74,3 +74,5 @@
 # Simplify the main loop by extracting request handling into a dedicated function
 
 # Update the deployment docs with the new environment variables
+
+# Clean up the formatting and run the linter on the changed files

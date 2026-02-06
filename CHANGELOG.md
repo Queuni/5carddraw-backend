@@ -135,3 +135,6 @@
 
 ## 2026-02-06
 - Simplify the auth flow by using a single token source
+
+## 2026-02-06
+- Update the example config with all available options and comments
