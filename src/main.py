@@ -78,3 +78,5 @@
 # Clean up the formatting and run the linter on the changed files
 
 # Implement proper backoff with jitter for the retry logic
+
+# Support both relative and absolute paths for the config file
