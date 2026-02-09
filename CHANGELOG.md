@@ -141,3 +141,6 @@
 
 ## 2026-02-09
 - Bump the Docker base image to get the latest security patches
+
+## 2026-02-09
+- Simplify the build script by using the same steps for dev and prod
