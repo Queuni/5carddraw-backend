@@ -138,3 +138,6 @@
 
 ## 2026-02-06
 - Update the example config with all available options and comments
+
+## 2026-02-09
+- Bump the Docker base image to get the latest security patches

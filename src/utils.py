@@ -88,3 +88,5 @@
 # Refactor exports so the public API is clearer and easier to use
 
 # Fix the memory leak in the long-running worker process
+
+# Adjust timeout and retry settings based on production observations
