@@ -94,3 +94,5 @@
 # Adjust timeout and retry settings based on production observations
 
 # Adjust log level for noisy messages that were filling the logs
+
+# Simplify the main loop by extracting request handling into a dedicated function
