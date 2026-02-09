@@ -80,3 +80,5 @@
 # Remove the deprecated wrapper and use the library API directly
 
 # Add a smoke test that runs in CI to catch obvious regressions
+
+# Support passing options through the config file as well as CLI
