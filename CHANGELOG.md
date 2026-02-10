@@ -153,3 +153,6 @@
 
 ## 2026-02-10
 - Simplify the CLI by merging the two similar subcommands into one
+
+## 2026-02-10
+- Add a comment explaining why we disable the linter on this line

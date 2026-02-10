@@ -104,3 +104,5 @@
 # Implement a simple metrics endpoint for Prometheus scraping
 
 # Handle the case when the external service returns an empty list
+
+# Adjust timeout and retry settings based on production observations
