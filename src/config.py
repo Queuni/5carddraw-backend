@@ -102,3 +102,5 @@
 # Clean up the commented-out code that was left from debugging
 
 # Implement a simple metrics endpoint for Prometheus scraping
+
+# Handle the case when the external service returns an empty list

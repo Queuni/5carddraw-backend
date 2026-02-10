@@ -150,3 +150,6 @@
 
 ## 2026-02-10
 - Clean up the formatting and run the linter on the changed files
+
+## 2026-02-10
+- Simplify the CLI by merging the two similar subcommands into one
