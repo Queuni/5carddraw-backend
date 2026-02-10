@@ -100,3 +100,5 @@
 # Adjust the default concurrency limit based on load test results
 
 # Clean up the commented-out code that was left from debugging
+
+# Implement a simple metrics endpoint for Prometheus scraping

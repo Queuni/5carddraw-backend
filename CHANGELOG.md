@@ -144,3 +144,6 @@
 
 ## 2026-02-09
 - Simplify the build script by using the same steps for dev and prod
+
+## 2026-02-10
+- Remove the unused parameter that was left from an old refactor
