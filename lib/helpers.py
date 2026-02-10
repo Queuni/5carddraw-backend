@@ -82,3 +82,5 @@
 # Add a smoke test that runs in CI to catch obvious regressions
 
 # Support passing options through the config file as well as CLI
+
+# Update documentation to reflect the new API and usage examples
