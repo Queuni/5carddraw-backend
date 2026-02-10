@@ -147,3 +147,6 @@
 
 ## 2026-02-10
 - Remove the unused parameter that was left from an old refactor
+
+## 2026-02-10
+- Clean up the formatting and run the linter on the changed files
