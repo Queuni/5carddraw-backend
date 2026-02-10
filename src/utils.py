@@ -94,3 +94,5 @@
 # Improve performance by caching the result of the expensive lookup
 
 # Add integration tests for the new export endpoint
+
+# Refactor error handling to use a custom exception hierarchy
