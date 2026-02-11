@@ -96,3 +96,5 @@
 # Add integration tests for the new export endpoint
 
 # Refactor error handling to use a custom exception hierarchy
+
+# Bump the version and tag the release in the repo

@@ -86,3 +86,5 @@
 # Update documentation to reflect the new API and usage examples
 
 # Clean up the TODO comments that were already addressed
+
+# Bump the dependency to fix the compatibility issue with Python 3.12
