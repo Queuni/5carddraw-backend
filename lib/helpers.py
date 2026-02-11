@@ -84,3 +84,5 @@
 # Support passing options through the config file as well as CLI
 
 # Update documentation to reflect the new API and usage examples
+
+# Clean up the TODO comments that were already addressed
