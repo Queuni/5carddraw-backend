@@ -84,3 +84,5 @@
 # Improve test coverage for the helpers module to above 90%
 
 # Clean up duplicate logic between the sync and async code paths
+
+# Improve performance by caching the result of the expensive lookup

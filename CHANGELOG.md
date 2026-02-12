@@ -156,3 +156,6 @@
 
 ## 2026-02-10
 - Add a comment explaining why we disable the linter on this line
+
+## 2026-02-12
+- Support environment-specific overrides via separate config files
