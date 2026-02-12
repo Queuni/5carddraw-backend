@@ -98,3 +98,5 @@
 # Refactor error handling to use a custom exception hierarchy
 
 # Bump the version and tag the release in the repo
+
+# Correct the docstring to match the actual behavior of the function
