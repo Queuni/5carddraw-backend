@@ -102,3 +102,5 @@
 # Correct the docstring to match the actual behavior of the function
 
 # Implement proper cleanup of resources when the process receives SIGTERM
+
+# Clean up the formatting and run the linter on the changed files

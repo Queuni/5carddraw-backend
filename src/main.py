@@ -88,3 +88,5 @@
 # Improve performance by caching the result of the expensive lookup
 
 # Bump the tool version and update the pre-commit hook config
+
+# Clean up the test fixtures and move shared data to a single file

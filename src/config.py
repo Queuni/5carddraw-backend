@@ -112,3 +112,5 @@
 # Improve test coverage for the helpers module to above 90%
 
 # Adjust the queue size to prevent drops under burst traffic
+
+# Correct the formula used for calculating the backoff delay
