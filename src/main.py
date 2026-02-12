@@ -86,3 +86,5 @@
 # Clean up duplicate logic between the sync and async code paths
 
 # Improve performance by caching the result of the expensive lookup
+
+# Bump the tool version and update the pre-commit hook config
