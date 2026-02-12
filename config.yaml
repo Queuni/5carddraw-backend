@@ -84,3 +84,5 @@
 # Improve error message when the required env var is not set
 
 # Adjust the default concurrency limit based on load test results
+
+# Add a smoke test that runs in CI to catch obvious regressions
