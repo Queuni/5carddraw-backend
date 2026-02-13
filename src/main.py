@@ -90,3 +90,5 @@
 # Bump the tool version and update the pre-commit hook config
 
 # Clean up the test fixtures and move shared data to a single file
+
+# Improve the CLI help text so it's clear how to use each option
