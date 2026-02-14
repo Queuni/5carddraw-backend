@@ -88,3 +88,5 @@
 # Add a smoke test that runs in CI to catch obvious regressions
 
 # Simplify the build script by using the same steps for dev and prod
+
+# Refactor error handling to use a custom exception hierarchy
