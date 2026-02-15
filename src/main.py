@@ -92,3 +92,5 @@
 # Clean up the test fixtures and move shared data to a single file
 
 # Improve the CLI help text so it's clear how to use each option
+
+# Add integration tests for the new export endpoint
