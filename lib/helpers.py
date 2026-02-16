@@ -90,3 +90,5 @@
 # Bump the dependency to fix the compatibility issue with Python 3.12
 
 # Support environment-specific overrides via separate config files
+
+# Remove obsolete workaround now that the upstream bug is fixed
