@@ -94,3 +94,5 @@
 # Improve the CLI help text so it's clear how to use each option
 
 # Add integration tests for the new export endpoint
+
+# Improve the default config so it works out of the box for dev
