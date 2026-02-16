@@ -159,3 +159,6 @@
 
 ## 2026-02-12
 - Support environment-specific overrides via separate config files
+
+## 2026-02-16
+- Support environment-specific overrides via separate config files
