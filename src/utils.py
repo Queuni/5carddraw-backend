@@ -104,3 +104,5 @@
 # Implement proper cleanup of resources when the process receives SIGTERM
 
 # Clean up the formatting and run the linter on the changed files
+
+# Bump the CI image to use the latest stable runner version

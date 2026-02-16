@@ -80,3 +80,5 @@
 - Simplify the CLI by merging the two similar subcommands into one
 
 - Improve logging so we can trace requests through the pipeline in production
+
+- Improve the CLI help text so it's clear how to use each option
