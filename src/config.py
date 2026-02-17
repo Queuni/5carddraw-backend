@@ -118,3 +118,5 @@
 # Improve logging so we can trace requests through the pipeline in production
 
 # Support custom headers in the client for API key or auth tokens
+
+# Fix the memory leak in the long-running worker process

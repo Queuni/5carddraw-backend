@@ -98,3 +98,5 @@
 # Improve the default config so it works out of the box for dev
 
 # Handle the case when the config file exists but is not readable
+
+# Correct the formula used for calculating the backoff delay
