@@ -162,3 +162,6 @@
 
 ## 2026-02-16
 - Support environment-specific overrides via separate config files
+
+## 2026-02-17
+- Correct the default path used when no config file is specified
