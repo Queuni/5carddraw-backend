@@ -96,3 +96,5 @@
 # Add integration tests for the new export endpoint
 
 # Improve the default config so it works out of the box for dev
+
+# Handle the case when the config file exists but is not readable
