@@ -92,3 +92,5 @@
 # Support environment-specific overrides via separate config files
 
 # Remove obsolete workaround now that the upstream bug is fixed
+
+# Fix issue where empty input was not validated before passing to the parser
