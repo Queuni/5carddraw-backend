@@ -82,3 +82,5 @@
 - Improve logging so we can trace requests through the pipeline in production
 
 - Improve the CLI help text so it's clear how to use each option
+
+- Refactor config loading into a separate module for better testability

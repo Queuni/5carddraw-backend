@@ -168,3 +168,6 @@
 
 ## 2026-02-20
 - Handle edge case when the response body is empty but status is 200
+
+## 2026-02-20
+- Support custom headers in the client for API key or auth tokens
