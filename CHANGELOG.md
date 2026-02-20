@@ -165,3 +165,6 @@
 
 ## 2026-02-17
 - Correct the default path used when no config file is specified
+
+## 2026-02-20
+- Handle edge case when the response body is empty but status is 200

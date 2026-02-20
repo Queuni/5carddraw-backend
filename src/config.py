@@ -120,3 +120,5 @@
 # Support custom headers in the client for API key or auth tokens
 
 # Fix the memory leak in the long-running worker process
+
+# Improve error message when the required env var is not set
