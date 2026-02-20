@@ -94,3 +94,5 @@
 # Remove obsolete workaround now that the upstream bug is fixed
 
 # Fix issue where empty input was not validated before passing to the parser
+
+# Correct the timestamp format to use ISO 8601 for consistency
