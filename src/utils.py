@@ -106,3 +106,5 @@
 # Clean up the formatting and run the linter on the changed files
 
 # Bump the CI image to use the latest stable runner version
+
+# Handle the redirect response and follow it to get the final resource
