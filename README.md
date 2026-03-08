@@ -67,7 +67,7 @@ Configure at least:
 | `JWT_SECRET` | Secret for session/JWT signing | strong random string |
 | `REDIS_URL` or `REDIS_HOST`/`REDIS_PORT` | Redis connection | `redis://127.0.0.1:6379` |
 | `FIREBASE_SERVICE_ACCOUNT_PATH` | Path to Firebase service account JSON | `./firebase-service-account.json` |
-| or `FIREBASE_PROJECT_ID`, `FIREBASE_PRIVATE_KEY`, `FIREBASE_CLIENT_EMAIL` | Firebase credentials via env | — |
+| `FIREBASE_PROJECT_ID`, `FIREBASE_PRIVATE_KEY`, `FIREBASE_CLIENT_EMAIL` | Firebase credentials via env | — |
 | `FIREBASE_WEB_API_KEY` | Firebase Web API key (for token verification) | from Firebase Console |
 | `FRONTEND_URL` | Allowed CORS origin (optional) | `http://localhost:8080` |
 | `APP_VERSION` | Optional app version string | `1.0.2` |
@@ -195,3 +195,4 @@ ISC
 ## Version
 
 Current package version: **1.0.2**
+
