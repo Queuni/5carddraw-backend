@@ -1,86 +1,197 @@
-# Project
+# 5 Card Draw — Backend
 
+Backend server for the **5 Card Draw Poker** game. REST API, Firebase auth, Redis-backed game rooms, and real-time multiplayer via Socket.IO.
 
-- Add integration test that covers the full flow from request to response
+[![Node.js](https://img.shields.io/badge/Node.js-20+-green.svg)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/License-ISC-yellow.svg)](LICENSE)
 
-- Support loading config from multiple files with later overriding earlier
+---
 
-- Clean up the formatting and run the linter on the changed files
+## Features
 
-- Add a small delay between retries to avoid thundering herd
+- **REST API** — Auth, profile, rooms, leaderboard
+- **Firebase Authentication** — Email/password, anonymous, token verification
+- **Real-time multiplayer** — Socket.IO for game rooms and live play
+- **Redis** — Session/game state and room management
+- **Security** — Helmet, CORS, JWT, env-based config
 
-- Simplify the config validation by using a declarative schema
+---
 
-- Refactor the parser to use a proper state machine instead of regex
+## Tech Stack
 
-- Adjust default timeout value to prevent premature connection drops
+| Layer        | Technology              |
+| ------------ | ----------------------- |
+| Runtime      | Node.js 20+             |
+| Language     | TypeScript 5.3          |
+| Framework    | Express 4.x             |
+| Auth         | Firebase Admin SDK, JWT |
+| Realtime     | Socket.IO 4.x           |
+| Cache/State  | Redis (ioredis)         |
+| Validation   | express-validator       |
 
-- Clean up the TODO comments that were already addressed
+---
 
-- Bump version to 1.2.0 and add changelog entry for the new features
+## Prerequisites
 
-- Refactor error handling to use a custom exception hierarchy
+- **Node.js** 20 or later  
+- **Redis** (local or remote)  
+- **Firebase** project (Authentication + optional Firestore)
 
-- Add a small delay between retries to avoid thundering herd
+---
 
-- Clean up the test fixtures and move shared data to a single file
+## Quick Start
 
-- Clean up unused imports and fix formatting to match the project style guide
+### 1. Clone and install
 
-- Bump dependency to get the security fix for the reported CVE
+```bash
+git clone <repository-url>
+cd 5carddraw-backend
+npm install
+```
 
-- Improve the startup time by lazy-loading the heavy modules
+### 2. Environment variables
 
-- Clean up the test fixtures and move shared data to a single file
+Copy the example env and set your values:
 
-- Update the API docs with the new query parameters and examples
+```bash
+cp .env.example .env
+```
 
-- Clean up the deprecated alias and point callers to the new name
+Configure at least:
 
-- Implement request ID propagation for better tracing across services
+| Variable | Description | Example |
+| -------- | ----------- | ------- |
+| `PORT` | HTTP server port | `3000` |
+| `NODE_ENV` | `development` or `production` | `development` |
+| `JWT_SECRET` | Secret for session/JWT signing | strong random string |
+| `REDIS_URL` or `REDIS_HOST`/`REDIS_PORT` | Redis connection | `redis://127.0.0.1:6379` |
+| `FIREBASE_SERVICE_ACCOUNT_PATH` | Path to Firebase service account JSON | `./firebase-service-account.json` |
+| or `FIREBASE_PROJECT_ID`, `FIREBASE_PRIVATE_KEY`, `FIREBASE_CLIENT_EMAIL` | Firebase credentials via env | — |
+| `FIREBASE_WEB_API_KEY` | Firebase Web API key (for token verification) | from Firebase Console |
+| `FRONTEND_URL` | Allowed CORS origin (optional) | `http://localhost:8080` |
+| `APP_VERSION` | Optional app version string | `1.0.2` |
 
-- Add a small delay between retries to avoid thundering herd
+Firebase can be configured either by:
 
-- Clean up leftover code from the previous implementation
+- **File:** place `firebase-service-account.json` in project root and set `FIREBASE_SERVICE_ACCOUNT_PATH` if needed, or  
+- **Env:** set `FIREBASE_PROJECT_ID`, `FIREBASE_PRIVATE_KEY`, `FIREBASE_CLIENT_EMAIL`.
 
-- Adjust the queue size to prevent drops under burst traffic
+### 3. Run
 
-- Simplify the build script by using the same steps for dev and prod
+**Development (watch mode):**
 
-- Remove deprecated CLI flag and update docs to use the new option
+```bash
+npm run dev
+```
 
-- Refactor the main entry point to make it easier to test
+**Production:**
 
-- Handle the case when the external service returns an empty list
+```bash
+npm run build
+npm start
+```
 
-- Implement fallback to default value when config key is missing
+Server listens on `PORT` (default `3000`). WebSocket server is attached to the same HTTP server.
 
-- Handle the redirect response and follow it to get the final resource
+---
 
-- Refactor the parser to use a proper state machine instead of regex
+## API Overview
 
-- Update the API docs with the new query parameters and examples
+Base path: **`/api`**
 
-- Remove hardcoded credentials and move to env-based configuration
+### Health
 
-- Update the changelog with the fixes included in this release
+- `GET /api/health` — Health check and version info (no auth).
 
-- Implement retry logic for the API client when the remote returns 5xx
+### Auth — `/api/auth`
 
-- Remove obsolete workaround now that the upstream bug is fixed
+| Method | Path | Auth | Description |
+| ------ | ---- | ---- | ----------- |
+| POST | `/signup` | — | Register with email/password |
+| POST | `/signin` | — | Sign in, returns tokens |
+| POST | `/verify-token` | — | Verify Firebase ID token |
+| POST | `/create-anonymous` | — | Create anonymous user (e.g. WebGL) |
+| POST | `/forgot-password` | — | Request password reset |
+| POST | `/anonymous` | Bearer | Link anonymous to permanent account |
+| POST | `/reset-password` | Bearer | Reset password (authenticated) |
 
-- Update dependencies and resolve compatibility warning from pytest
+Protected routes use `Authorization: Bearer <token>` (Firebase ID token or app JWT).
 
-- Support config reload without restart via SIGHUP or file watch
+### Profile — `/api/profile`
 
-- Support loading config from multiple files with later overriding earlier
+All routes require authentication.
 
-- Handle the case when the external service returns an empty list
+| Method | Path | Description |
+| ------ | ---- | ----------- |
+| GET | `/` | Get current user profile |
+| PUT | `/` | Update profile |
+| DELETE | `/` | Delete account |
 
-- Simplify the CLI by merging the two similar subcommands into one
+### Multiplayer — `/api/multiplayer`
 
-- Improve logging so we can trace requests through the pipeline in production
+| Method | Path | Auth | Description |
+| ------ | ---- | ---- | ----------- |
+| GET | `/rooms` | — | List available rooms |
+| GET | `/rooms/:roomId` | — | Get room details |
+| POST | `/rooms` | Bearer | Create room |
+| DELETE | `/rooms/:roomId` | Bearer | Delete room (host only) |
+| GET | `/leaderboard` | — | Multiplayer leaderboard |
 
-- Improve the CLI help text so it's clear how to use each option
+### WebSocket
 
-- Refactor config loading into a separate module for better testability
+Socket.IO is mounted on the same server. Use for real-time game events (joins, actions, updates). Connect to the server origin (e.g. `http://localhost:3000`). Auth and event names are defined in `src/services/socketService.ts`.
+
+---
+
+## Project Structure
+
+```
+5carddraw-backend/
+├── src/
+│   ├── config/          # Firebase, Redis
+│   ├── controllers/     # Auth, profile, multiplayer
+│   ├── middleware/      # Auth, error handling
+│   ├── routes/          # Express routers
+│   ├── services/        # Business logic, Socket.IO, game/room services
+│   ├── types/           # Shared TypeScript types
+│   ├── utils/           # Helpers, validation, errors, version
+│   └── server.ts        # Entry point
+├── dist/                # Compiled output (after build)
+├── .env.example
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+---
+
+## Scripts
+
+| Command | Description |
+| ------- | ----------- |
+| `npm run dev` | Start with ts-node-dev (watch, no build) |
+| `npm run build` | Compile TypeScript to `dist/` |
+| `npm start` | Run `node dist/server.js` |
+| `npm run lint` | Run ESLint on `src/**/*.ts` |
+
+---
+
+## CORS
+
+- **Development:** localhost and 127.0.0.1 origins are allowed.  
+- **Production:** allowed origins include `https://5carddraw.app`, `https://5carddraw.net`, `https://www.5carddraw.net`, and `FRONTEND_URL` if set.
+
+Adjust `allowedOrigins` in `src/server.ts` for your deployments.
+
+---
+
+## License
+
+ISC
+
+---
+
+## Version
+
+Current package version: **1.0.2**
